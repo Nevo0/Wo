@@ -1,0 +1,16 @@
+@import "header";
+@import "hero";
+@import "footer";
+
+body {
+  margin: 0;
+  padding: 0;
+  //   background-color: red;
+  font-size: 18px;
+  .top-pading {
+    padding-top: 2rem;
+  }
+  .content {
+    padding: 2rem 0;
+  }
+}

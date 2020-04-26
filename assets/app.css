@@ -1,0 +1,122 @@
+header {
+  background-color: #333;
+  max-height: 92px;
+  box-shadow: 1px 0px 50px #333333;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header .container .menu-top-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .container .menu-top-container #menu-top {
+  display: flex;
+  flex-direction: row;
+}
+header .container .menu-top-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+header .container .menu-top-container li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+header .container .menu-top-container li a {
+  display: block;
+  color: #aaa;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+header .container .menu-top-container li ul {
+  position: absolute;
+  display: none;
+}
+header .menu-top-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .menu-top-container #menu-top {
+  display: flex;
+  flex-direction: row;
+}
+header .menu-top-container #menu-top > li a {
+  color: #aaa;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+header .menu-top-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+header .menu-top-container li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+header .menu-top-container li ul {
+  position: absolute;
+  display: none;
+}
+@media screen and (max-width: 625px) {
+  header .menu-top-container {
+    margin-right: 1em;
+  }
+}
+@media screen and (min-width: 626px) and (max-width: 719px) {
+  header .menu-top-container {
+    margin-right: 2em;
+  }
+}
+@media screen and (min-width: 720px) {
+  header #menu-top > li {
+    font-size: 1.3em;
+    margin-right: 20px;
+  }
+  header #menu-top > li:last-child {
+    margin-right: 0;
+  }
+  header .menu-top-container {
+    margin-right: 6vw;
+  }
+}
+
+#hero {
+  height: 530px;
+  width: 100%;
+  background: url("img/hero.jpg");
+  background-position: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  height: 300px;
+  background-color: #2e2e2e;
+  box-shadow: 0px 0px 20px #000002;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+body .top-pading {
+  padding-top: 2rem;
+}
+body .content {
+  padding: 2rem 0;
+}
